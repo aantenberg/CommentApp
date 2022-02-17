@@ -1,0 +1,53 @@
+.card {
+    margin: 1rem auto;
+    border-collapse: separate; 
+    border-radius: 8px !important;
+    box-shadow: rgb(0 0 0 / 30%) 0px 1px 18px;
+    padding: 10px;
+}
+
+.depth-1 {
+    width: 50%;
+}
+.depth-2 {
+    width: 95%;
+}
+
+.grey-border {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px
+}
+
+.username {
+    padding-left: 10px;
+    color:rgb(0, 140, 255)
+}
+
+#reply-btn {
+    width: 70px;
+    padding: 0px;
+}
+
+#votes {
+    font-size: 15pt;
+    font-weight: 200;
+    text-align: center;
+    margin: -10px;
+}
+
+#vote-arrow {
+    font-size: 20pt;
+    color:rgb(0 0 0 / 30%);
+    outline: none;
+    box-shadow: none
+}
+
+#vote-arrow:focus {
+    font-size: 20pt;
+    color:rgb(0 0 0);
+    outline: none;
+    box-shadow: none
+}
